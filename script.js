@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let p=document.querySelector("#fname");
-p.addEventListener("blur" upperCase)
+p.addEventListener("blur", upperCase)
 function upperCase(e){
-let q=p.toUpperCase();
-return q ;
+let q=p.value.toUpperCase();
+ p =q.value;
 	}
